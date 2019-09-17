@@ -6,6 +6,8 @@
     display: inline-block;
     width: 15em;
     height: 5rem;
+    margin-right: 1rem;
+    
 }
 
 .btn-primary {
@@ -29,6 +31,7 @@
     border-radius: 1rem;
     overflow: hidden;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 #confirm-btn, #cancel-btn, #ok-btn{
@@ -44,9 +47,23 @@
 
 #help-is-coming {
     display: none;
-    height: 2vh;
 }
 #confirm-mdg{
     display: none;
 }
 
+@media only screen and (min-width: 768px){
+    .biker-buttons {
+        width: 10em;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px){
+    .biker-buttons {
+        display: inline-block;
+        width: 25rem;
+        height: 5rem;
+    }
+    
+}
